@@ -1,0 +1,35 @@
+group:
+  - files:
+      - source: html/
+        exclude: |
+          index.html
+          index-3.html
+      - source: css/
+        exclude: |
+          test-css.css
+          test-3-css.css
+      - source: js/
+        exclude: |
+          test-js.js
+          test-3-js.js
+
+    repos: |
+      petramarkovic/secondary-repo
+
+
+  - files:
+      - source: html/
+        exclude: |
+          index-2.html
+          index.html
+      - source: css/
+        exclude: |
+          test-2-css.css
+          test-css.css
+      - source: js/
+        exclude: |
+          test-2-js.js
+          test-js.js
+
+    repos: |
+      petramarkovic/ternary-repo
